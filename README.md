@@ -24,6 +24,7 @@ Rules in **bold** are the most important ones.
     - [PREFER] Use value classes when possible
     - [PREFER] Do not use `lazy`
     - [MUST] Do not pattern match on `Throwable`, use `NonFatal(e)`
+    - [[PREFER] Do not use default parameters](guidelines/scala/avoid-default-parameters.md)
 1. Functional programming
     - **[PREFER] Use pure functions as much as possible**
     - [PREFER] By default, use immutable values
@@ -58,3 +59,4 @@ They are here just as a source of inspiration, they are not included in our guid
 - [Databricks best practices](https://github.com/databricks/scala-style-guide)
 - [PayPal best practices](https://github.com/paypal/scala-style-guide)
 - [Twitter best practices](http://twitter.github.io/effectivescala)
+- [Why are Default Parameter Values Considered Bad in Scala?](https://blog.ssanj.net/posts/2019-05-01-why-are-default-parameter-values-considered-bad-in-scala.html)

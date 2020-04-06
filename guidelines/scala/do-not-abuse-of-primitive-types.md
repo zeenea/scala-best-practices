@@ -1,6 +1,6 @@
 # Do not abuse of primitive types
 
-This is a well known code small named [Primitive Obsession](https://www.franzoni.eu/primitive-types-are-not-your-friends/), often due to developer laziness.
+This is a well known code smell named [Primitive Obsession](https://www.franzoni.eu/primitive-types-are-not-your-friends/), often due to developer laziness.
 
 When you manipulate a lot of `String`, `Int` or `Boolean`, it becomes harder and harder to know what they contain and do not make mistakes manipulating them.
 
